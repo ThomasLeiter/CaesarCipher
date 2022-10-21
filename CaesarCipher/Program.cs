@@ -29,8 +29,7 @@ namespace CaesarCipher
 
         /// <summary>
         /// Helper method for shift ciphers to calculate 
-        /// the positive remainder of a division independant
-        /// of divident and divisor sign
+        /// the remainder with the same sign as the divisor.
         /// </summary>
         protected int Mod(int divident, int divisor)
         {
